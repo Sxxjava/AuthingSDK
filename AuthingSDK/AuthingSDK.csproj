@@ -48,7 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Authing.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="exceptions\AuthingException.cs" />
     <Compile Include="helpers\HttpClientHelper.cs" />
     <Compile Include="helpers\JsonHelper.cs" />

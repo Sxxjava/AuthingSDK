@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
 [assembly: AssemblyTitle("AuthingSDK")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Authing SDK from C#")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("优灵科技(深圳)有限公司")]
 [assembly: AssemblyProduct("AuthingSDK")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
