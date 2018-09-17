@@ -16,5 +16,19 @@ namespace AuthingDemo.Forms
         {
             InitializeComponent();
         }
+
+        private void btn_login_Click(object sender, EventArgs e)
+        {
+            string email = input_email.Text.Trim();
+            string password = input_password.Text.Trim();
+            Program.authing.Login(email,password);
+        }
+
+        private void btn_register_Click(object sender, EventArgs e)
+        {
+            string email = input_email.Text.Trim();
+            string password = input_password.Text.Trim();
+            Program.authing.Register(email, password);
+        }
     }
 }
